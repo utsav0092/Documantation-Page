@@ -1,0 +1,24 @@
+body {
+    min-width: 290px;
+    color: black;
+    background-color: #f6ffff;
+  }
+  #navbar{
+    display:inline-block;
+    top: 0px;
+    left: 0px;
+    width: 282px;
+    border-right: solid;}
+  header {
+    color: black;
+    margin: 10px;
+    text-align: center;
+    font-weight: bold;
+  }
+  @media screen and (max-width:600px)
+  {
+    body{
+      background-color:#ffffff;
+    }
+  }
+  
